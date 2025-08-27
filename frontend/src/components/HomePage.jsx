@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import io from 'socket.io-client';
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000';
+const BACKEND_URL = 'https://sharely-backend-fvi8.onrender.com';
 const CHUNK = 256 * 1024; // 256KB
 const MAX_BUFFERED = 1 * 1024 * 1024; // ✅ reduce to 1MB (smooth transfer)
 
