@@ -29,7 +29,7 @@ export default function GlobalShare() {
 
     try {
       setUploading(true);
-      const res = await fetch(""https://sharely-backend-fvi8.onrender.com"", {
+      const res = await fetch("https://sharely-backend-fvi8.onrender.com", {
         method: "POST",
         body: formData,
       });
